@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#navbar{
+    width: 100%;
+    height:90px ;
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* padding: 0px 10px; */
+      /* position: absolute;   */
+}
+#navbar nav ul{
+    display: flex;
+   
+    gap: 20px;
+ 
+    list-style: none;
+    padding-left: 350px;
+
+ } 
+
+#navbar nav ul li a{ 
+     
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 30px;
+
+    
+}
+.icons{
+    padding-right: 200px;
+}

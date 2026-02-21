@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#
+#navbar{
+    width: 100%;
+    height:90px ;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+     /* position: absolute;  */
+     position: relative;
+}
+#navbar nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 30px;
+    
+}
+ /* #navbar nav ul li a:hover{
+    color: #fa7e65;
+    border-bottom: 1px solid red;
+}  */
+   
+
+#navbar nav ul li a:hover{
+    color:#fa7e65 ;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+#navbar button{
+    background-color: #fa7e65;
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+
+}
+/* main code start here */
+#firstpage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; 
+    background-image: url(../images/iron\ man\ image.jpg);
+   background-repeat:no-repeat ;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;  */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+#firstpage img{
+     position: absolute; 
+     width: 50%;
+
+}
+ 
+/* #secondpage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#secondpage h1{
+    position: absolute;
+     top: 90px; 
+     left: 50px;
+} */
+ #firstpage h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
+ }
